@@ -30,3 +30,12 @@ pip3 install Pyrogram==1.4.0
 pip3 install pytgvoip
 pip3 install pytgvoip-pyrogram
 ```
+
+Create a file named `config.py` in the root directory with the following contents
+`config.py`
+```python
+# Visit https://my.telegram.org./auth to generate your credentials
+API_HASH = 'API Hash'
+API_ID = 0 # API ID
+CLIENT_NAME = 'Rose'
+```
