@@ -10,9 +10,9 @@ import pyrogram
 
 import uuid
 
-API_HASH = 'Your_API Hash'
-API_ID = 0 # API ID
-CLIENT_NAME = 'Rose'
+from config import CLIENT_NAME
+from config import API_ID
+from config import API_HASH
 
 VoIPServerConfig.set_bitrate_config(80000, 100000, 60000, 5000, 5000)
 client = pyrogram.Client(CLIENT_NAME, API_ID, API_HASH)

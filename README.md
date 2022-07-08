@@ -21,7 +21,7 @@ brew install make cmake gcc g++ python3 openssl opus
 
 Windows
 
-Unfortunately pytgvoip has a bug which causes failure while installing pytgvoip. A good workaround is using [WSL (Windows Subsystem for Linux)](https://docs.microsoft.com/en-us/windows/wsl/install). Ubuntu would be preferable.
+Unfortunately pytgvoip has a bug which causes failure while installing pytgvoip. A good workaround is using [WSL (Windows Subsystem for Linux)](https://docs.microsoft.com/en-us/windows/wsl/install). Ubuntu would be preferable WSL Distro.
 
 ### Installing the required python packages
 ```shell

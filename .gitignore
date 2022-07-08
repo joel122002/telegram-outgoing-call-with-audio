@@ -3,3 +3,4 @@ logs/
 binary_audio/*
 audio/*
 .idea/
+config.py
