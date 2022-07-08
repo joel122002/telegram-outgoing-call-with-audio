@@ -1,0 +1,5 @@
+Rose.session
+logs/
+binary_audio/*
+audio/*
+.idea/
